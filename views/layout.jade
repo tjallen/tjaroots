@@ -11,6 +11,47 @@ html
     != css()
 
   body
-    block content
+    block header
+      header
+        h1 thom allen
+    block hero
+      h2 I build effective, user-friendly websites & web apps
+    block intro
+      p I'm Thom Allen, a freelance front-end developer based in London.
+      p I enjoy creating responsive, efficient web experiences that satisfy clients & engage users.
+      p I'm currently focusing on developing UI components for web apps with libraries like React and Vue.
+      p Want to work together? Get in touch!
+    block work
+      h3 Work
+      include includes/posts
+    block skills
+      h3 Skills
+      dl
+        dt FRONT-END
+        dd HTML5
+        dd CSS3, Sass, PostCSS
+        dd JavaScript to ES6/7+ features
+        dd SVG, Canvas APIs
+        dt LIBRARIES AND FRAMEWORKS
+        dd React, Vue.js, jQuery, Flask
+        dd Bootstrap, Foundation, Google MDL
+        dt STATE MANAGEMENT
+        dd Flux, Redux, MobX
+        dt BUILD SYSTEMS AND PACKAGE MANAGERS
+        dd Webpack, Gulp, Grunt, NPM
+        dt TEST FRAMEWORKS AND ASSERTION LIBRARIES
+        dd Mocha, Jest, Tape, Expect, Enzyme
+        dt CMS
+        dd Craft, ExpressionEngine, WordPress, Grav, ProcessWire, Jekyll, Hugo
+        dt TEMPLATING
+        dd Twig, Jinja2, Mustache, Jade/Pug
+        dt VERSION CONTROL
+        dd Git via CLI
+    block contact
+      h3 Contact
+      p Interested in working together? Drop me an email below and I'll get back to you as soon as possible. Cheers!
+      
+      
+    include includes/footer
 
     != js()

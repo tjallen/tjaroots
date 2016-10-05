@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  each post in site.posts.all()
+    a.post
+      h5: a(href=post._url)= post.title
+      date= post.date
