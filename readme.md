@@ -1,6 +1,6 @@
 # tjaroots
 
-tja roots test
+testing [roots](http://roots.cx/) static site gen
 
 ### Setup
 
