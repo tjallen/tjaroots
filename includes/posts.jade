@@ -1,5 +1,4 @@
-each post in site.posts
+each post in site.posts.all()
   a.post
-    h2= post.title
+    h2: a(href=post._url)= post.title
     date= post.date
-    != post.content
